@@ -1,0 +1,24 @@
+.container {
+  margin: 5vh 0;
+}
+
+.busness-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 410px) {
+
+  .container {
+    margin: 5vh 8vw;
+  }
+
+  .business-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 2fr);
+    grid-gap: 40px;
+  }
+
+}

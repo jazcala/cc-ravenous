@@ -1,4 +1,5 @@
 export const List = [{
+  id: 1,
   imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
   name: 'MarginOtto Pizzeria',
   address: '1010 Paddington Way',
@@ -11,6 +12,7 @@ export const List = [{
 
 },
 {
+  id: 2,
   imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
   name: 'MarginOtto Pizzeria',
   address: '1010 Paddington Way',
@@ -23,6 +25,7 @@ export const List = [{
 
 },
 {
+  id: 3,
   imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
   name: 'MarginOtto Pizzeria',
   address: '1010 Paddington Way',
@@ -35,6 +38,7 @@ export const List = [{
 
 },
 {
+  id: 4,
   imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
   name: 'MarginOtto Pizzeria',
   address: '1010 Paddington Way',
@@ -47,6 +51,7 @@ export const List = [{
 
 },
 {
+  id: 5,
   imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
   name: 'MarginOtto Pizzeria',
   address: '1010 Paddington Way',
@@ -59,6 +64,7 @@ export const List = [{
 
 },
 {
+  id: 6,
   imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
   name: 'MarginOtto Pizzeria',
   address: '1010 Paddington Way',
@@ -71,6 +77,7 @@ export const List = [{
 
 },
 {
+  id: 7,
   imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
   name: 'MarginOtto Pizzeria',
   address: '1010 Paddington Way',
@@ -83,6 +90,7 @@ export const List = [{
 
 },
 {
+  id: 8,
   imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
   name: 'MarginOtto Pizzeria',
   address: '1010 Paddington Way',
@@ -95,6 +103,7 @@ export const List = [{
 
 },
 {
+  id: 9,
   imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
   name: 'MarginOtto Pizzeria',
   address: '1010 Paddington Way',
@@ -107,6 +116,7 @@ export const List = [{
 
 },
 {
+  id: 10,
   imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
   name: 'MarginOtto Pizzeria',
   address: '1010 Paddington Way',
@@ -119,6 +129,7 @@ export const List = [{
 
 },
 {
+  id: 11,
   imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
   name: 'MarginOtto Pizzeria',
   address: '1010 Paddington Way',

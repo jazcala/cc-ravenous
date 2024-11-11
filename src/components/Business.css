@@ -1,0 +1,34 @@
+.business {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.business img {
+  height: 25vh;
+  object-fit: cover;
+}
+
+h2 {
+  margin: 20px 10px 10px;
+}
+
+.business-description {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px 30px;
+}
+
+.business-description .col.two {
+  text-align: right;
+}
+
+.orange {
+  color: darkgoldenrod;
+  font-weight: 700;
+}
+
+.upper {
+  text-transform: uppercase;
+}

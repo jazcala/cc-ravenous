@@ -1,20 +1,26 @@
 import './Business.css';
 
-function Business() {
+const Business = ({ business }) => {
   return (
-    <div>
-      <img src='' alt='' />
-      <h2>Name</h2>
-      <p>Address</p>
-      <p>city</p>
-      <p>state</p>
-      <p>zipcode</p>
-      <p>Category</p>
-      <p>rating</p>
-      <p>review count</p>
+    < div className="business" key={`business${business.id}`
+    }>
+      <img src={business.imageSrc} alt={business.name} />
+      <h2>{business.name}</h2>
+      <div className='business-description'>
+        <div className='col one'>
+          <p>{business.address}</p>
+          <p>{business.city}</p>
 
+          <p>{business.state} {business.zipCode}</p>
+        </div>
+        <div className='col two'>
+          <p className='orange upper'>{business.category}</p>
+          <p className='orange'>{`${business.rating} stars`}</p>
+          <p>{`${business.reviewCount} reviews`}</p>
+        </div>
+      </div >
+    </div >
 
-    </div>
   )
 }
 
