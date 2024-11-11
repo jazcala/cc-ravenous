@@ -1,0 +1,36 @@
+#search-bar {
+  background-image: url("../images/background_search_mobile.jpg");
+  background-size: cover;
+  min-height: 40vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input {
+  width: 20vw;
+  height: 4vh;
+  margin: 10px;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.search-button {
+  border-radius: 5px;
+  background-color: goldenrod;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+@media only screen and (min-width:410px) {
+  #search-bar {
+    background-image: url("../images/background_search_desktop.jpg");
+    min-height: 60vh;
+
+  }
+}
