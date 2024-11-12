@@ -45,7 +45,6 @@
 
 .search-input:first-of-type {
   margin-bottom: 1vh;
-
 }
 
 .search-button {
@@ -57,6 +56,10 @@
   font-weight: bold;
   font-size: 1.2rem;
   width: 50%;
+}
+
+.search-button:hover {
+  background-color: rgb(216, 174, 65);
 }
 
 @media screen and (min-width: 410px) {

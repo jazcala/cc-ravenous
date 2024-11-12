@@ -1,3 +1,22 @@
+# Restaurant recomendation Page
+
+
+# Features
+  * The website allows users to scroll up and down to navigate through its content.
+  * Users can simulate a search by typing in the search bar
+  * A list of mock restaurant data is presented to the user.
+  * Information is transferred efficiently between components using a unidirectional data flow pattern commonly used in React applications.
+
+# Future work
+
+# Tecnologies used
+  * HTML
+  * CSS
+  * React
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

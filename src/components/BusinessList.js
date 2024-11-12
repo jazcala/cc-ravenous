@@ -1,16 +1,14 @@
 import './BusinessList.css';
 import Business from './Business.js';
 
-// hardcoded data
-import { List } from '../api/data.js';
-const BusinessList = () => {
+const BusinessList = ({ data }) => {
 
   return (
     <div className='container'>
 
       <div className='business-list'>
         {
-          List.map((business) => (
+          data.map((business) => (
             < Business business={business} key={business.id} />
           ))
         }
