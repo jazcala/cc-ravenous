@@ -6,11 +6,14 @@ import BusinessList from '../components/BusinessList';
 import { List } from '../api/data.js';
 
 const HomePage = () => {
+  const searchBusiness = (term, location, sortBy) => {
+    console.log("This is search criteria: " + term, location, sortBy);
+  }
 
   return (
     <>
       <h1 id="title">ravenous</h1>
-      <SearchBar />
+      <SearchBar searchBusiness={searchBusiness} />
       <BusinessList data={List} />
     </>
   )

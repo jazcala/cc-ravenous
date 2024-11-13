@@ -26,6 +26,22 @@
 
 }
 
+.filters li:hover {
+  color: #d4cfcf;
+}
+
+.filters li.active,
+.filters li.active:hover {
+  border-bottom: 1px solid #f0c36c;
+  color: #f0c36c;
+}
+
+#search-bar form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .inputs {
   display: flex;
   flex-direction: column;
@@ -65,9 +81,7 @@
 @media screen and (min-width: 410px) {
 
   #search-bar {
-    min-height: 40vh;
     background-image: url("../images/background_search_desktop.jpg");
-    min-height: 60vh;
   }
 
   .inputs {

@@ -14,11 +14,19 @@
     margin: 5vh 8vw;
   }
 
+}
+
+@media screen and (min-width: 500px) {
   .business-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 2fr);
     grid-gap: 40px;
   }
+}
 
+@media screen and (min-width: 760px) {
+  .business-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
